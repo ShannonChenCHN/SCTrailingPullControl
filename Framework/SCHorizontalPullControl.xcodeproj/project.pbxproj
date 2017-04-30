@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5816C1E51EB5F7EC006FB84F /* SCHorizontalPullControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5816C1DB1EB5F7EC006FB84F /* SCHorizontalPullControl.framework */; };
 		5816C2051EB5FBDF006FB84F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5816C2041EB5FBDF006FB84F /* Info.plist */; };
 		5816C20F1EB5FD1C006FB84F /* pull_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5816C2071EB5FD1C006FB84F /* pull_arrow@2x.png */; };
 		5816C2101EB5FD1C006FB84F /* SCHorizontalPullControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5816C2081EB5FD1C006FB84F /* SCHorizontalPullControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,19 +18,8 @@
 		5816C2161EB5FD1C006FB84F /* UIView+SCTrailingPullControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5816C20E1EB5FD1C006FB84F /* UIView+SCTrailingPullControl.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5816C1E61EB5F7EC006FB84F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5816C1D21EB5F7EC006FB84F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5816C1DA1EB5F7EC006FB84F;
-			remoteInfo = SCHorizontalPullControl;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		5816C1DB1EB5F7EC006FB84F /* SCHorizontalPullControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCHorizontalPullControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5816C1E41EB5F7EC006FB84F /* SCHorizontalPullControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCHorizontalPullControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5816C2041EB5FBDF006FB84F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5816C2071EB5FD1C006FB84F /* pull_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull_arrow@2x.png"; sourceTree = "<group>"; };
 		5816C2081EB5FD1C006FB84F /* SCHorizontalPullControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHorizontalPullControl.h; sourceTree = "<group>"; };
@@ -51,14 +39,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5816C1E11EB5F7EC006FB84F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5816C1E51EB5F7EC006FB84F /* SCHorizontalPullControl.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				5816C1DB1EB5F7EC006FB84F /* SCHorizontalPullControl.framework */,
-				5816C1E41EB5F7EC006FB84F /* SCHorizontalPullControlTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,24 +118,6 @@
 			productReference = 5816C1DB1EB5F7EC006FB84F /* SCHorizontalPullControl.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5816C1E31EB5F7EC006FB84F /* SCHorizontalPullControlTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5816C1F21EB5F7EC006FB84F /* Build configuration list for PBXNativeTarget "SCHorizontalPullControlTests" */;
-			buildPhases = (
-				5816C1E01EB5F7EC006FB84F /* Sources */,
-				5816C1E11EB5F7EC006FB84F /* Frameworks */,
-				5816C1E21EB5F7EC006FB84F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5816C1E71EB5F7EC006FB84F /* PBXTargetDependency */,
-			);
-			name = SCHorizontalPullControlTests;
-			productName = SCHorizontalPullControlTests;
-			productReference = 5816C1E41EB5F7EC006FB84F /* SCHorizontalPullControlTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -167,11 +128,6 @@
 				ORGANIZATIONNAME = ShannonChen;
 				TargetAttributes = {
 					5816C1DA1EB5F7EC006FB84F = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = L32PN8QKLZ;
-						ProvisioningStyle = Automatic;
-					};
-					5816C1E31EB5F7EC006FB84F = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = L32PN8QKLZ;
 						ProvisioningStyle = Automatic;
@@ -191,7 +147,6 @@
 			projectRoot = "";
 			targets = (
 				5816C1DA1EB5F7EC006FB84F /* SCHorizontalPullControl */,
-				5816C1E31EB5F7EC006FB84F /* SCHorizontalPullControlTests */,
 			);
 		};
 /* End PBXProject section */
@@ -203,13 +158,6 @@
 			files = (
 				5816C2051EB5FBDF006FB84F /* Info.plist in Resources */,
 				5816C20F1EB5FD1C006FB84F /* pull_arrow@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5816C1E21EB5F7EC006FB84F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,22 +174,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5816C1E01EB5F7EC006FB84F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5816C1E71EB5F7EC006FB84F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5816C1DA1EB5F7EC006FB84F /* SCHorizontalPullControl */;
-			targetProxy = 5816C1E61EB5F7EC006FB84F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5816C1ED1EB5F7EC006FB84F /* Debug */ = {
@@ -379,28 +312,6 @@
 			};
 			name = Release;
 		};
-		5816C1F31EB5F7EC006FB84F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = L32PN8QKLZ;
-				INFOPLIST_FILE = SCHorizontalPullControlTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ShannonChen.SCHorizontalPullControlTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		5816C1F41EB5F7EC006FB84F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = L32PN8QKLZ;
-				INFOPLIST_FILE = SCHorizontalPullControlTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ShannonChen.SCHorizontalPullControlTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,15 +329,6 @@
 			buildConfigurations = (
 				5816C1F01EB5F7EC006FB84F /* Debug */,
 				5816C1F11EB5F7EC006FB84F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5816C1F21EB5F7EC006FB84F /* Build configuration list for PBXNativeTarget "SCHorizontalPullControlTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5816C1F31EB5F7EC006FB84F /* Debug */,
-				5816C1F41EB5F7EC006FB84F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
