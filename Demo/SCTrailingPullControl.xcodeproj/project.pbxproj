@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5816C2201EB5FE4D006FB84F /* pull_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5816C2181EB5FE4D006FB84F /* pull_arrow@2x.png */; };
+		5816C2211EB5FE4D006FB84F /* SCTrailingPullControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5816C21B1EB5FE4D006FB84F /* SCTrailingPullControl.m */; };
+		5816C2221EB5FE4D006FB84F /* UIScrollView+SCTrailingPullControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5816C21D1EB5FE4D006FB84F /* UIScrollView+SCTrailingPullControl.m */; };
+		5816C2231EB5FE4D006FB84F /* UIView+SCTrailingPullControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5816C21F1EB5FE4D006FB84F /* UIView+SCTrailingPullControl.m */; };
 		582980A61E9A79EE00BB2D83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 582980A51E9A79EE00BB2D83 /* main.m */; };
 		582980A91E9A79EE00BB2D83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 582980A81E9A79EE00BB2D83 /* AppDelegate.m */; };
 		582980AC1E9A79EE00BB2D83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 582980AB1E9A79EE00BB2D83 /* ViewController.m */; };
@@ -15,14 +19,18 @@
 		582980B41E9A79EE00BB2D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582980B21E9A79EE00BB2D83 /* LaunchScreen.storyboard */; };
 		582980BD1E9A7AFB00BB2D83 /* SCTrailingPullTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 582980BC1E9A7AFB00BB2D83 /* SCTrailingPullTableViewCell.m */; };
 		582980C61E9A7C1500BB2D83 /* SCHorizontalCollectionViewContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 582980C51E9A7C1500BB2D83 /* SCHorizontalCollectionViewContainerView.m */; };
-		582980C91E9A7C7C00BB2D83 /* SCTrailingPullControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 582980C81E9A7C7C00BB2D83 /* SCTrailingPullControl.m */; };
-		582980CC1E9A7C9E00BB2D83 /* UIScrollView+SCTrailingPullControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 582980CB1E9A7C9E00BB2D83 /* UIScrollView+SCTrailingPullControl.m */; };
-		582980D01E9A7CCE00BB2D83 /* pull_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 582980CF1E9A7CCE00BB2D83 /* pull_arrow@2x.png */; };
-		582980D31E9A7DD900BB2D83 /* UIView+SCTrailingPullControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 582980D21E9A7DD900BB2D83 /* UIView+SCTrailingPullControl.m */; };
 		582980D61E9A7F8700BB2D83 /* SCTrailingPullCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 582980D51E9A7F8700BB2D83 /* SCTrailingPullCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5816C2181EB5FE4D006FB84F /* pull_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull_arrow@2x.png"; sourceTree = "<group>"; };
+		5816C2191EB5FE4D006FB84F /* SCHorizontalPullControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHorizontalPullControl.h; sourceTree = "<group>"; };
+		5816C21A1EB5FE4D006FB84F /* SCTrailingPullControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTrailingPullControl.h; sourceTree = "<group>"; };
+		5816C21B1EB5FE4D006FB84F /* SCTrailingPullControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTrailingPullControl.m; sourceTree = "<group>"; };
+		5816C21C1EB5FE4D006FB84F /* UIScrollView+SCTrailingPullControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SCTrailingPullControl.h"; sourceTree = "<group>"; };
+		5816C21D1EB5FE4D006FB84F /* UIScrollView+SCTrailingPullControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SCTrailingPullControl.m"; sourceTree = "<group>"; };
+		5816C21E1EB5FE4D006FB84F /* UIView+SCTrailingPullControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SCTrailingPullControl.h"; sourceTree = "<group>"; };
+		5816C21F1EB5FE4D006FB84F /* UIView+SCTrailingPullControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SCTrailingPullControl.m"; sourceTree = "<group>"; };
 		582980A11E9A79EE00BB2D83 /* SCTrailingPullControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCTrailingPullControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		582980A51E9A79EE00BB2D83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		582980A71E9A79EE00BB2D83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,13 +45,6 @@
 		582980BC1E9A7AFB00BB2D83 /* SCTrailingPullTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTrailingPullTableViewCell.m; sourceTree = "<group>"; };
 		582980C41E9A7C1500BB2D83 /* SCHorizontalCollectionViewContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHorizontalCollectionViewContainerView.h; sourceTree = "<group>"; };
 		582980C51E9A7C1500BB2D83 /* SCHorizontalCollectionViewContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHorizontalCollectionViewContainerView.m; sourceTree = "<group>"; };
-		582980C71E9A7C7C00BB2D83 /* SCTrailingPullControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTrailingPullControl.h; sourceTree = "<group>"; };
-		582980C81E9A7C7C00BB2D83 /* SCTrailingPullControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTrailingPullControl.m; sourceTree = "<group>"; };
-		582980CA1E9A7C9E00BB2D83 /* UIScrollView+SCTrailingPullControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SCTrailingPullControl.h"; sourceTree = "<group>"; };
-		582980CB1E9A7C9E00BB2D83 /* UIScrollView+SCTrailingPullControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SCTrailingPullControl.m"; sourceTree = "<group>"; };
-		582980CF1E9A7CCE00BB2D83 /* pull_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull_arrow@2x.png"; sourceTree = "<group>"; };
-		582980D11E9A7DD900BB2D83 /* UIView+SCTrailingPullControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SCTrailingPullControl.h"; sourceTree = "<group>"; };
-		582980D21E9A7DD900BB2D83 /* UIView+SCTrailingPullControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SCTrailingPullControl.m"; sourceTree = "<group>"; };
 		582980D41E9A7F8700BB2D83 /* SCTrailingPullCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTrailingPullCollectionViewCell.h; sourceTree = "<group>"; };
 		582980D51E9A7F8700BB2D83 /* SCTrailingPullCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTrailingPullCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +60,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5816C2171EB5FE4D006FB84F /* SCHorizontalPullControl */ = {
+			isa = PBXGroup;
+			children = (
+				5816C2181EB5FE4D006FB84F /* pull_arrow@2x.png */,
+				5816C2191EB5FE4D006FB84F /* SCHorizontalPullControl.h */,
+				5816C21A1EB5FE4D006FB84F /* SCTrailingPullControl.h */,
+				5816C21B1EB5FE4D006FB84F /* SCTrailingPullControl.m */,
+				5816C21C1EB5FE4D006FB84F /* UIScrollView+SCTrailingPullControl.h */,
+				5816C21D1EB5FE4D006FB84F /* UIScrollView+SCTrailingPullControl.m */,
+				5816C21E1EB5FE4D006FB84F /* UIView+SCTrailingPullControl.h */,
+				5816C21F1EB5FE4D006FB84F /* UIView+SCTrailingPullControl.m */,
+			);
+			name = SCHorizontalPullControl;
+			path = ../../SCHorizontalPullControl;
+			sourceTree = "<group>";
+		};
 		582980981E9A79EE00BB2D83 = {
 			isa = PBXGroup;
 			children = (
@@ -78,8 +95,8 @@
 		582980A31E9A79EE00BB2D83 /* SCTrailingPullControl */ = {
 			isa = PBXGroup;
 			children = (
+				5816C2171EB5FE4D006FB84F /* SCHorizontalPullControl */,
 				582980C31E9A7C0B00BB2D83 /* SCHorizontalCollectionViewContainerView */,
-				582980BE1E9A7B5C00BB2D83 /* SCTrailingPullControl */,
 				582980A71E9A79EE00BB2D83 /* AppDelegate.h */,
 				582980A81E9A79EE00BB2D83 /* AppDelegate.m */,
 				582980AA1E9A79EE00BB2D83 /* ViewController.h */,
@@ -103,21 +120,6 @@
 				582980A51E9A79EE00BB2D83 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		582980BE1E9A7B5C00BB2D83 /* SCTrailingPullControl */ = {
-			isa = PBXGroup;
-			children = (
-				582980CF1E9A7CCE00BB2D83 /* pull_arrow@2x.png */,
-				582980C71E9A7C7C00BB2D83 /* SCTrailingPullControl.h */,
-				582980C81E9A7C7C00BB2D83 /* SCTrailingPullControl.m */,
-				582980CA1E9A7C9E00BB2D83 /* UIScrollView+SCTrailingPullControl.h */,
-				582980CB1E9A7C9E00BB2D83 /* UIScrollView+SCTrailingPullControl.m */,
-				582980D11E9A7DD900BB2D83 /* UIView+SCTrailingPullControl.h */,
-				582980D21E9A7DD900BB2D83 /* UIView+SCTrailingPullControl.m */,
-			);
-			name = SCTrailingPullControl;
-			path = ../../SCTrailingPullControl;
 			sourceTree = "<group>";
 		};
 		582980C31E9A7C0B00BB2D83 /* SCHorizontalCollectionViewContainerView */ = {
@@ -189,7 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				582980B41E9A79EE00BB2D83 /* LaunchScreen.storyboard in Resources */,
-				582980D01E9A7CCE00BB2D83 /* pull_arrow@2x.png in Resources */,
+				5816C2201EB5FE4D006FB84F /* pull_arrow@2x.png in Resources */,
 				582980B11E9A79EE00BB2D83 /* Assets.xcassets in Resources */,
 				582980AF1E9A79EE00BB2D83 /* Main.storyboard in Resources */,
 			);
@@ -202,13 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				582980C91E9A7C7C00BB2D83 /* SCTrailingPullControl.m in Sources */,
+				5816C2221EB5FE4D006FB84F /* UIScrollView+SCTrailingPullControl.m in Sources */,
 				582980C61E9A7C1500BB2D83 /* SCHorizontalCollectionViewContainerView.m in Sources */,
 				582980BD1E9A7AFB00BB2D83 /* SCTrailingPullTableViewCell.m in Sources */,
-				582980D31E9A7DD900BB2D83 /* UIView+SCTrailingPullControl.m in Sources */,
+				5816C2211EB5FE4D006FB84F /* SCTrailingPullControl.m in Sources */,
 				582980AC1E9A79EE00BB2D83 /* ViewController.m in Sources */,
 				582980D61E9A7F8700BB2D83 /* SCTrailingPullCollectionViewCell.m in Sources */,
-				582980CC1E9A7C9E00BB2D83 /* UIScrollView+SCTrailingPullControl.m in Sources */,
+				5816C2231EB5FE4D006FB84F /* UIView+SCTrailingPullControl.m in Sources */,
 				582980A91E9A79EE00BB2D83 /* AppDelegate.m in Sources */,
 				582980A61E9A79EE00BB2D83 /* main.m in Sources */,
 			);
